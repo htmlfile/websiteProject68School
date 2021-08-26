@@ -12,13 +12,12 @@ body
     height: 100%;
     z-index: 9;
 }
-#security {
-    font-family: 'Cinzel Decorative', cursive;
-    padding: 50px;
-    text-align: center;
-    
- 
-}
+
+
+
+
+
+
 h1 {
     font-size: 40px;
     font-family: sans-serif;
@@ -54,40 +53,6 @@ h1 {
     width: 80%;
 }
 
-
-input
-{
-    background: grey;
-}
-
-
-.announcement{
-background-color:#337ab7;
-width: 100%;
-height: 30px;
-}
-
-#marqueeStyle{
-  width:100%;
-  direction:right;
-  height:100px;
-  color: beige;
-  font-size:120%;
-}
-
-#video{
-  width:100%;
-  height:500px;
-  border: none;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .travel_mainDiv
 {
   float: left;
@@ -112,10 +77,48 @@ height: 30px;
 margin-left: 20px;
 }
 
+input
+{
+    background: grey;
+}
+
+
+.announcement{
+background-color:#337ab7;
+width: 100%;
+height: 30px;
+}
+
+
+
+#marqueeStyle{
+  width:100%;
+  direction:right;
+  height:100px;
+  color: beige;
+  font-size:120%;
+}
+
+#video{
+  width:100%;
+  height:500px;
+  border: none;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 
 #achievementsID{
  padding-bottom: 10px;
+          
 }
+
 
 .movie_head
 {
